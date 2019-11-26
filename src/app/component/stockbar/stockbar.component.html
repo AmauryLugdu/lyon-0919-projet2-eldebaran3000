@@ -1,0 +1,43 @@
+<div class="stockbar">
+        <div class="ressources">
+            <div>
+                <img src="\assets\Energy_Credits.png" class="icones"/> 
+            </div>
+            <div class="ressources-bar">
+                <mat-progress-bar class="energy-progress" [value]= "gameService.energyProgress"  aria-label="Rating"></mat-progress-bar>
+                <div class="name"> ENERGY {{gameService.energy}}/{{gameService.energyMax}}</div>
+            </div>
+        </div>
+
+        <div class="ressources">
+            <div>
+                <img src="\assets\Food.png" class="icones"/> 
+            </div>
+            <div class="ressources-bar">
+                <mat-progress-bar class="food-progress" [value]="gameService.foodProgress"></mat-progress-bar>
+                <div class="name"> FOOD {{gameService.food}}/{{gameService.foodMax}}</div>
+            </div>
+        </div>
+
+        <div class="ressources">
+            <div>
+                <img src="\assets\Mirium.png"class="icones" /> 
+            </div>
+            <div class="ressources-bar">
+                <mat-progress-bar class="iron-progress" [value]="gameService.ironProgress"></mat-progress-bar>
+                <div class="name"> IRON {{gameService.iron}}/{{gameService.ironMax}}</div>
+            </div>
+        </div>
+
+        <div class="ressources">
+            <div>
+                <img  id="human" src="\assets\Amesocratic.png" class="icones"/>
+            </div>
+            <div class="ressources-bar">
+                <mat-progress-bar class="human-progress" [value]="gameService.humanProgress"></mat-progress-bar>
+                <div class="name"> HUMAN {{gameService.human}}/{{gameService.humanMax}}</div>
+            </div>
+        </div>    
+        
+
+</div>

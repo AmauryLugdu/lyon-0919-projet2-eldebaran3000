@@ -1,0 +1,45 @@
+.build{
+    color: #FFFF19;
+    background: black;
+    border: solid white;
+    border-radius: 10px;
+    opacity: 0.8;
+    position: absolute;
+    left: 105%;
+    list-style-type: none;
+    width: 110%;
+    margin-bottom: 20px;
+    padding-top: 2%;
+    padding-left: 8%;
+    margin-top: 0px;
+    // top: 70px;
+    
+
+}
+.mouseBuilding{
+    display: flex;  
+    justify-content: space-around;
+    border-bottom: solid white 1px;
+    width: 105%;
+    padding-top: 4%;
+    cursor: pointer;
+}
+li{
+    font-size: 1em;
+    width: 100%;
+    
+}
+
+h3{
+    color: #FFFF19;
+    text-shadow: 5px 5px black;
+}
+span{
+    color: green;
+    text-shadow: none;
+    font-size: 0.9em;
+}
+img{
+    cursor: pointer;
+    width: 50px
+}

@@ -1,0 +1,96 @@
+.food-progress, .energy-progress, .iron-progress, .human-progress{
+  border: solid 2px white;
+}
+.name{
+  margin-top: 2px;
+  font-size: 1em;
+}
+#human {
+    width: 20px;
+    height: 20px;
+}
+
+.icones{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.stockbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: white;
+    width: 800px;
+}
+
+.ressources-bar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center
+}
+
+.ressources {
+    display: flex;
+    align-items: center;
+    width: 23%;
+}
+
+
+.energy-progress {
+    &.mat-progress-bar {
+      height: 15px;
+    }
+  
+    .mat-progress-bar-fill::after {
+      background-color: #FFD700;
+    }
+  
+    .mat-progress-bar-buffer {
+      background-color: #DAA520;
+    }
+}
+
+
+.food-progress {
+    &.mat-progress-bar {
+      height: 15px;
+    }
+  
+    .mat-progress-bar-fill::after {
+      background-color: #ADFF2F;
+    }
+  
+    .mat-progress-bar-buffer {
+      background-color: #008000;
+    }
+}
+
+.iron-progress {
+    &.mat-progress-bar {
+      height: 15px;
+    }
+  
+    .mat-progress-bar-fill::after {
+      background-color: #90a4ae;
+    }
+  
+    .mat-progress-bar-buffer {
+      background-color: #37474f;
+    }
+}
+
+.human-progress {
+    &.mat-progress-bar {
+      height: 15px;
+    }
+  
+    .mat-progress-bar-fill::after {
+      background-color: #87CEEB;
+    }
+  
+    .mat-progress-bar-buffer {
+      background-color: #4682B4;
+    }
+}

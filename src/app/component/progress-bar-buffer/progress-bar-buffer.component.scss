@@ -1,0 +1,21 @@
+.travelBar{
+    display: flex;
+    padding-bottom: 25px;
+}
+.bar{
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 10px;   
+}
+.earth{
+    padding-right: 10px;
+}
+.ship{
+    position: relative;
+}
+.eldebaran{
+    position: relative;
+    right: 40px;
+    bottom: 2px;
+}

@@ -1,0 +1,31 @@
+.containerRow {
+    display: flex;
+    flex-direction: row;
+    height:100px;
+
+    justify-content: space-evenly;
+}
+
+#containerCol {
+    background-image:  linear-gradient(rgba(255, 255, 255, 0) 93%,rgba(97,108,126, 0.787) 100%), url("/assets/cosmos-dark.jpg");
+}
+.progressBar{
+    display: flex;
+    justify-content: center;
+    
+}
+.classBar{
+    height: 200px;
+}
+app-controler{
+    display: flex;
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+.home {
+    cursor: pointer;
+    width: 60px;
+    height: 40px;
+    margin-top: 20px; 
+}

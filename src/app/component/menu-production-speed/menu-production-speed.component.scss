@@ -1,0 +1,37 @@
+.menu{
+    color: #FFFF19;
+    font-family: eldebaran;
+    text-shadow: 5px 5px black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: black;
+    border-radius: 10px;
+    border: solid white;
+    opacity: 0.8;
+    margin-bottom: 4px;
+    padding-top: 2%;   
+    width: 217px;
+    margin-right: 6px;
+}
+
+.menuProd{
+    color:
+#FFFF19;
+background:
+black;
+border-radius: 10px;
+opacity: 0.8;
+width: 95%;
+border: solid
+white;
+display: flex;
+flex-direction: column;
+}
+
+ul{
+        list-style-type: none;
+        padding-inline-start: 12px;
+
+}
